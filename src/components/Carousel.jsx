@@ -46,7 +46,7 @@ const Carousel = ({card}) => {
             </>
             }
         </div>
-        <div className='absolute w-full flex justify-between top-20 transition-all opacity-0 group-hover:opacity-100'>
+        <div className='absolute h-0 w-full flex justify-between top-20 transition-all opacity-0 group-hover:opacity-100'>
             <button className='rounded-full opacity-70 bg-black flex justify-center items-center text-white w-16 h-16' onClick={()=>scroll('left')}><AiOutlineDoubleLeft className='w-5 h-5'/></button>
             <button className='rounded-full opacity-70 bg-black flex justify-center items-center text-white w-16 h-16' onClick={()=>scroll('right')}><AiOutlineDoubleRight className='w-5 h-5'/></button>
         </div>

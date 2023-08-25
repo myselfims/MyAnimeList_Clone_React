@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         </div>
 
-        <div className="bg-sky-700 items-center flex justify-between px-4">
+        <div className="bg-sky-700 max-sm:flex-col items-center flex justify-between px-4">
             <div>
                 <ul className='flex'>
                     <li className='group text-white hover:bg-slate-700 p-2 cursor-default font-bold link relative'>Anime

@@ -24,8 +24,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p>____________________________________________________________________________________________________________________________________________</p>
-      <div className='my-8 flex'>
+      <hr className='border-b border-slate-600 w-6/12 mt-4' />
+      <div className='my-8 flex max-sm:flex-col'>
         <a className='mx-4 hover:border-b' href="">Home</a>
         <a className='mx-4 hover:border-b' href="">|</a>
         <a className='mx-4 hover:border-b' href="">About</a>

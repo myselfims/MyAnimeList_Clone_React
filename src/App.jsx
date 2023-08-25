@@ -9,7 +9,7 @@ import Videos from './pages/Videos';
 function App() {
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col w-screen items-center justify-center">
       <div className='wrapper text-sm container w-9/12 max-sm:w-screen'>
 
       <BrowserRouter>

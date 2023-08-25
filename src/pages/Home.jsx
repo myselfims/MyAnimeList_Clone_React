@@ -18,7 +18,7 @@ const Home = () => {
                 <h1 className='font-bold mt-2'>MALxJapan - More than just anime-</h1>
                 <a className='hover:border-b mx-2 text-sky-500' href="">Visit MALxJapan</a>
               </div>
-              <div className='flex justify-between'>
+              <div className='flex max-sm:flex-wrap justify-between'>
                 <HorizontalCard/>
                 <HorizontalCard/>
                 <HorizontalCard/>
